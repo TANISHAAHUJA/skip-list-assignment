@@ -1,0 +1,9 @@
+# Requirements for Skip List Implementation
+# Assignment 359 - Topic 3
+
+# No external dependencies required for core functionality
+# Python 3.7+ with standard library is sufficient
+
+# Optional: for running tests
+pytest>=7.0.0
+
