@@ -8,6 +8,13 @@ A comprehensive implementation of the Skip List data structure in Python with fu
 
 A **Skip List** is a probabilistic data structure that provides expected O(log n) time complexity for search, insertion, and deletion operations. It uses a hierarchy of linked lists with progressively fewer elements at each level, creating "express lanes" that allow for faster traversal.
 
+## Work Planning and Progress Tracking
+
+### Git History
+Our development process can be tracked through our git commits at:
+https://github.com/TANISHAAHUJA/skip-list-assignment/commits/main
+
+
 ## Contribution
 
 ### Tanisha Ahuja 
@@ -27,8 +34,12 @@ A **Skip List** is a probabilistic data structure that provides expected O(log n
 ### Arpita Arora
 - Building the presentation and adding visuals to it.
 
-## Reference
+### Gunpreet
+- **Test coverage** for different data types and scenarios
+- 'search() methods
 
+
+## Reference
 - [OpenDSA Skip List Tutorial](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/SkipList.html)
 - Pugh, William (1990). "Skip Lists: A Probabilistic Alternative to Balanced Trees". Communications of the ACM, 33(6), 668-676.
 - [OpenDSA Skip List Chapter](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/SkipList.html)
@@ -200,16 +211,5 @@ python test_skip_list.py
 3. **Update Array**: Maintains pointers during search for efficient insertion/deletion
 4. **Level Management**: Automatically adjusts the maximum level as needed
 
-## References
 
-- Pugh, William (1990). "Skip Lists: A Probabilistic Alternative to Balanced Trees"
-- [OpenDSA Skip List Chapter](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/SkipList.html)
-
-## Author
-
-Assignment 359 - Topic 3 Implementation
-
-## License
-
-Educational use for Assignment 359.
 
