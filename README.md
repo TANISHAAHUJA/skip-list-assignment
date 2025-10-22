@@ -8,9 +8,35 @@ A comprehensive implementation of the Skip List data structure in Python with fu
 
 A **Skip List** is a probabilistic data structure that provides expected O(log n) time complexity for search, insertion, and deletion operations. It uses a hierarchy of linked lists with progressively fewer elements at each level, creating "express lanes" that allow for faster traversal.
 
+## Contribution
+
+### Tanisha Ahuja 
+- Core Implementation
+- **Primary skip list implementation** (`skip_list.py`)
+- **SkipNode class** with multiple forward pointers
+- **SkipList class** with core operations:
+  - `insert()`, `delete()` methods
+  - `display()` for structure visualization
+  - `get_all_items()` for sorted traversal
+  - `__len__()`, `__contains__()` magic methods
+- **Visualization utilities** (`visualization.py`)
+- **Demo function** with comprehensive examples
+- **Documentation** , **readme** and code comments
+- **Comprehensive test suite** (`test_skip_list.py`)
+
+### Arpita Arora
+- Building the presentation and adding visuals to it.
+
 ## Reference
 
 - [OpenDSA Skip List Tutorial](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/SkipList.html)
+- Pugh, William (1990). "Skip Lists: A Probabilistic Alternative to Balanced Trees". Communications of the ACM, 33(6), 668-676.
+- [OpenDSA Skip List Chapter](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/SkipList.html)
+- Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). "Introduction to Algorithms" (3rd ed.). MIT Press. Chapter 12: Binary Search Trees and Skip Lists.
+- [Skip List Visualization](https://www.cs.usfca.edu/~galles/visualization/SkipList.html) - Interactive skip list demonstration
+- Sedgewick, R., & Wayne, K. (2011). "Algorithms" (4th ed.). Addison-Wesley. Chapter 3.3: Balanced Search Trees and Skip Lists.
+- [GeeksforGeeks Skip List Tutorial](https://www.geeksforgeeks.org/skip-list/) - Implementation guide and examples
+- Herlihy, M., & Shavit, N. (2012). "The Art of Multiprocessor Programming" (2nd ed.). Morgan Kaufmann. Chapter 14: Concurrent Data Structures.
 
 ## Features
 
